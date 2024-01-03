@@ -33,14 +33,9 @@ $ npm ci
 $ npm publish
 ```
 
-```sh
-> pnpm run build
-```
-
-## TODOs 📝
+## TODO 📝
 
 - Add tight eslint rules
-- Try with package `beautiful-sql-string`
 
 ## Credit 🙏
 
