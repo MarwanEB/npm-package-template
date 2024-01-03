@@ -21,7 +21,7 @@ $ nvm install && nvm use
 2. Install dependencies
 
 ```sh
-$ npm install
+$ npm ci
 ```
 
 3. Add your code to `src`
@@ -39,7 +39,6 @@ $ npm publish
 
 ## TODOs 📝
 
-- Add Github actions
 - Add tight eslint rules
 - Try with package `beautiful-sql-string`
 
