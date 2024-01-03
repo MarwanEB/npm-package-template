@@ -1,0 +1,21 @@
+name: "[PR] Run all tests"
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+env:
+  NODE_ENV: development
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Setup Node environment
+        uses: ./.github/actions/setup-node
+      - run: npm ci
+      - run: npm run test
+
+
