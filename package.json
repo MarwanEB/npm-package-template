@@ -19,7 +19,7 @@
     "name": "Marwan El Boussarghini",
     "url": "https://www.linkedin.com/in/marwan-el-boussarghini/"
   },
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "jest": "^29.7.0",
