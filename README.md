@@ -1,8 +1,8 @@
 # npm-package-template
 
-[![License][]](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status]](https://github.com/MarwanEB/beautiful-sqlstring/actions/workflows/ci.yml)
-[![Code Coverage]](https://codecov.io/gh/MarwanEB/npm-package-template)
+[![Code Coverage](https://app.codecov.io/github/MarwanEB/npm-package-template/settings/badge)](https://codecov.io/gh/MarwanEB/npm-package-template)
 
 An opinionated ready-to-use vanilla Typescript npm package template.
 
