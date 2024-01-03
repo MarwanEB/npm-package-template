@@ -1,44 +1,47 @@
-# npm-package-template-tsup
-This is a template package to publish npm package with typescript and tsup.
+# npm-package-template
 
-## tsup
-Bundle your TypeScript library with no config, powered by esbuild.
+An opinionated ready-to-use vanilla Typescript npm package template.
 
-https://tsup.egoist.dev/
+## Dependencies 🔗
 
-## how to use this
-1. install dependencies
+To bundle this project you need to install the following dependencies:
+
+- [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) – this will allow you to install and use the correct version of Node.js / npm for this project.
+
+Library bundles with [tsup](https://tsup.egoist.dev/).
+
+## How to use 📖
+
+1. Install the right version of node / npm
+
+```sh
+$ nvm install && nvm use
 ```
-# pnpm
-$ pnpm install
 
-# yarn
-$ yarn
+2. Install dependencies
 
-# npm
-$ npm install
+```sh
+$ npm ci
 ```
-2. add your code to `src`
-3. add export statement to `src/index.ts`
-4. test build command to build `src`.
-once the command works properly, you will see `dist` folder.
 
-```zsh
-# pnpm
-$ pnpm run build
-
-# yarn
-$ yarn build
-
-# npm
-$ npm run build
-```
-5. publish your package
+3. Add your code to `src`
+4. Add export statement to `src/index.ts`
+5. You can build your code with the following command (once the command works properly, you will see `dist` folder)
+6. Publish your package
 
 ```zsh
 $ npm publish
 ```
 
+```sh
+> pnpm run build
+```
 
-## test package
-https://www.npmjs.com/package/npm-template-with-tsup
+## TODOs 📝
+
+- Add tight eslint rules
+- Try with package `beautiful-sql-string`
+
+## Credit 🙏
+
+Project forked from [koji/npm-package-template-with-tsup](https://github.com/koji/npm-package-template-with-tsup).
