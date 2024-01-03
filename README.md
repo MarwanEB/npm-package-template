@@ -1,5 +1,9 @@
 # npm-package-template
 
+[![License][]](https://opensource.org/licenses/Apache-2.0)
+[![Build Status]](https://github.com/MarwanEB/beautiful-sqlstring/actions/workflows/ci.yml)
+[![Code Coverage]](https://codecov.io/gh/MarwanEB/npm-package-template)
+
 An opinionated ready-to-use vanilla Typescript npm package template.
 
 ## Dependencies 🔗
