@@ -1,8 +1,8 @@
 # npm-package-template
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status](https://github.com/MarwanEB/npm-package-template/actions/workflows/main/badge.svg)](https://github.com/MarwanEB/beautiful-sqlstring/actions/workflows/main.yaml)
-[![codecov](https://codecov.io/gh/MarwanEB/npm-package-template/graph/badge.svg?token=ZFK2TXK7D1)](https://codecov.io/gh/MarwanEB/npm-package-template)
+[![Build Status](https://github.com/MarwanEB/npm-package-template/actions/workflows/main.yaml/badge.svg)](https://github.com/MarwanEB/npm-package-template/actions/workflows/main.yaml)
+[![Code coverage](https://codecov.io/gh/MarwanEB/npm-package-template/graph/badge.svg?token=ZFK2TXK7D1)](https://codecov.io/gh/MarwanEB/npm-package-template)
 
 An opinionated ready-to-use vanilla Typescript npm package template.
 
