@@ -1,16 +1,14 @@
 # npm-package-template
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status]](https://github.com/MarwanEB/beautiful-sqlstring/actions/workflows/ci.yml)
-[[![codecov](https://codecov.io/gh/MarwanEB/npm-package-template/graph/badge.svg?token=ZFK2TXK7D1)](https://codecov.io/gh/MarwanEB/npm-package-template)](https://app.codecov.io/github/MarwanEB/npm-package-template/settings/badge)](https://codecov.io/gh/MarwanEB/npm-package-template)
+[![Build Status](https://github.com/MarwanEB/npm-package-template/actions/workflows/main/badge.svg)](https://github.com/MarwanEB/beautiful-sqlstring/actions/workflows/main.yaml)
+[![codecov](https://codecov.io/gh/MarwanEB/npm-package-template/graph/badge.svg?token=ZFK2TXK7D1)](https://codecov.io/gh/MarwanEB/npm-package-template)
 
 An opinionated ready-to-use vanilla Typescript npm package template.
 
 ## Dependencies 🔗
 
-To bundle this project you need to install the following dependencies:
-
-- [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) – this will allow you to install and use the correct version of Node.js / npm for this project.
+To bundle this project you need to install [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) (this will allow you to install and use the correct version of Node.js / npm for this project).
 
 Library bundles with [tsup](https://tsup.egoist.dev/).
 
