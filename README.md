@@ -17,13 +17,13 @@ Library bundles with [tsup](https://tsup.egoist.dev/).
 1. Install the right version of node / npm
 
 ```sh
-$ nvm install && nvm use
+nvm install && nvm use
 ```
 
 2. Install dependencies
 
 ```sh
-$ npm ci
+npm ci
 ```
 
 3. Add your code to `src`
@@ -32,7 +32,7 @@ $ npm ci
 6. Publish your package
 
 ```zsh
-$ npm publish
+npm publish
 ```
 
 ## TODO 📝
