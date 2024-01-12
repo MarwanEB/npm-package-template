@@ -6,13 +6,13 @@
 
 An opinionated ready-to-use vanilla Typescript npm package template.
 
-## Dependencies 🔗
+## 🔗 Dependencies
 
 To bundle this project you need to install [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) (this will allow you to install and use the correct version of Node.js / npm for this project).
 
 Library bundles with [tsup](https://tsup.egoist.dev/).
 
-## How to use 📖
+## 📖 How to use
 
 1. Install the right version of node / npm
 
@@ -35,10 +35,10 @@ npm ci
 npm publish
 ```
 
-## TODO 📝
+## 📝 TODO
 
 - Add tight eslint rules
 
-## Credit 🙏
+## 🙏 Credit
 
 Project forked from [koji/npm-package-template-with-tsup](https://github.com/koji/npm-package-template-with-tsup).
